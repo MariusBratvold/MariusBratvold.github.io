@@ -3,21 +3,27 @@ body {
   height: 100%;
 }
 
-.photo-before,
-.photo-after {
-  background-attachment: fixed;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  height: 100%;
-  width: 100%;
-}
 
-.photo-before {
-    background-image: url(parlor.jpg);
+
+  div p.art {
+      display: inline-block;
+      min-width: 5em;
+      min-height: 8em;
+      background-color: whitesmoke;
+      padding: 1em;
+      margin: 5px;
+      border: solid 1px gray;
   }
-  
-  .photo-after {
-    background-image: url(Auditorium.jpg);
-    border-top: 1px solid #ccc;
+
+  #before {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+  }
+
+  #bilde {
+      background-image: url("Auditorium.jpg");
+      height: 100vh;
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center center;
   }
