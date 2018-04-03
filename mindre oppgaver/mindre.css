@@ -1,0 +1,53 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-left: 1em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+div p.art {
+    display: inline-block;
+    min-width: 5em;
+    min-height: 1.5em;
+    background-color: lightblue;
+    padding: 1em;
+    margin: 5px;
+    border: solid 1px gray;
+    text-align: left;
+}
+
+#before {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(rullestad.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+p.art {
+    font-size: 1.2em;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
