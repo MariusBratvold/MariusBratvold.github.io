@@ -1,0 +1,26 @@
+body {
+    counter-reset: oppgave;
+}
+
+div.oppgave {
+    counter-reset: deloppgave;
+}
+
+div.oppgave::before {
+    font-size: 1.3em;
+    color: blue;
+    counter-increment: oppgave;
+    content: counter(oppgave);
+}
+
+li {
+    list-style: none;
+}
+
+ol {
+    list-style-type: lower-alpha;
+}
+
+li::before {
+    content: counter() ";
+}
