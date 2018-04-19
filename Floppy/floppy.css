@@ -1,0 +1,32 @@
+#bird {
+    background-image: url("flappy.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: calc(50vw - 50px);
+    top: 120px;
+}
+
+#sky {
+    height: 100vh;
+    background-color: lightblue;
+}
+
+#above, #below {
+    position: absolute;
+    width: 30px;
+    height: 150px;
+    left: 400px;
+    background-color: green;
+    border: solid lightgreen 1px;
+}
+
+#above {
+    top: 0px;
+}
+
+#below {
+    bottom: 0px;
+}
