@@ -10,7 +10,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: red;
+    background-color: rgb(139, 27, 27);
 }
 
 .tittel {
@@ -30,18 +30,17 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right top;
-    background-color: red;
+    background-color: rgb(139, 27, 27);
 }
 
 #innhold {
     position: absolute;
     width: 78.6%;
-    height: 81%;
+    height: 79.555%;
     z-index: 2;
     left: 20.5%;
     bottom: 0.8%;
     background-color: white;
-
 }
 
 #bakgrunn {
@@ -102,7 +101,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: red;
+    background-color: rgb(139, 27, 27);
 }
 
 li {
@@ -120,14 +119,14 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: blue;
+    background-color: rgb(4, 4, 156);
     color: #FFFFFF;
     transition: .5s ease-out;
 }
 
 .active {
     color: #FFFFFF;
-    background-color: blue;
+    background-color: rgb(4, 4, 156);
 }
 
 .bin {
@@ -165,7 +164,7 @@ h2 {
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3em;
 }
 
@@ -176,7 +175,29 @@ p {
 
 pre {
     position: absolute;
-    left: 30%;
-    top: 5%;
+    left: 0.5%;
+    top: -3%;
     font-size: 1.5em;
+    z-index: 2;
+    line-height: 1.5em;
+}
+
+#p2 {
+    position: absolute;
+    left: 30%;
+    top: 40%;
+}
+
+#bilde1 {
+    position: absolute;
+    z-index: 1;
+    left: 41%;
+    border: solid 2px black;
+}
+
+#bilde2 {
+    position: absolute;
+    z-index: 1;
+    left: 70%;
+    border: solid 2px black;
 }
