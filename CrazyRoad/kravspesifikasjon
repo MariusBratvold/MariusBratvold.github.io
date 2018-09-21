@@ -1,0 +1,28 @@
+Kravspesifikasjon, vett ikkje ka eg ska skriva på 3, 5 og 7...                                                     •	Overordnet beskrivelse: En kortfattet beskrivelse av hva som skal lages.
+
+Vi skal lage et spill hvor det er tre veibaner, du styrer en bil, det kommer biler imot, å du må unngå å treffe disse bilene.
+
+•	Hensikt: Hva er årsaken til at man ønsker at systemet skal lages, og hvilke behov skal det dekke?
+
+Systemet vi skal lage er et spill, å hensikten med spillet er å underholde brukerane.
+
+•	Funksjonelle krav: Helt konkrete punkter om hvordan systemet skal fungere. Disse punktene er ofte nummererte eller i det minste
+i listeform. Ofte grupperer man også sammen relaterte krav i hovedpunkter og underpunkter, slik at listen består av flere nivåer.
+I tillegg kan man ha med følgende punkter om man også ønsker å si noe om rammene rundt prosjektet. Disse punktene går ofte under
+samlebetegnelsen operasjonelle krav og er nok som tidligere nevnt mer aktuelle for prosjekter som er større enn dem som denne boka tar for seg:
+
+
+
+• Rammer: Når skal ting være ferdig, og hvor mye ressurser i form av penger og arbeidstid har vi tilgjengelig?
+
+Spillet skal være ferdig innen et par uker, og vi har IT-timene på skolen til dispensasjon, itilegg til fritid.
+
+• Ord og uttrykk: En beskrivelse av hva vi legger i ord og uttrykk som benyttes i systemet, slik at alle er enige om hva vi snakker om.
+
+
+
+• Brukere: Hvem skal bruke systemet, og hvordan skal de bruke det? Hva er forutsetningene til de ulike brukerne?
+
+Spillet skal benyttes av brukerene som spiller
+
+• Systemkrav: Hva kreves av sikkerhet, oppetid, vedlikehold, ytelse osv.?
